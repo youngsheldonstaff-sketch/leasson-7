@@ -2,10 +2,10 @@ a=input("enter one letter:")
 
 
 
-if a.is type(str):
-    print("true")
-else:       
-    print("false")
+if len(a) == 1 and a.isalpha():
+    print("it is an alphabet")
+else:
+    print("it is not an alphabet")
                         
  
 
